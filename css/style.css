@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor01: #1C100F;
+    --cor02: #E1C453;
+
+}
+
+body{
+    background-color: var(--cor01);
+}
