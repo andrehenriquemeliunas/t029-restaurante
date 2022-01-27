@@ -7,8 +7,30 @@
     --cor01: #1C100F;
     --cor02: #E1C453;
 
+    --fonte-padrao: Arial, Helvetica, sans-serif;
+
 }
 
 body{
+    background-color: gray;
+    font-family: var(--fonte-padrao);
+}
+header{
     background-color: var(--cor01);
+    width: 100%;
+    height: 120px;
+}
+
+nav{
+    background-color: var(--cor01);
+    text-align: center;
+    padding: 10px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    padding: 10px;
+    
 }
