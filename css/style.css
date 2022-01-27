@@ -34,3 +34,8 @@ nav > a{
     padding: 10px;
     
 }
+
+main{
+    max-width: 900px;
+    min-width: 300px;
+}
