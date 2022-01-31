@@ -8,7 +8,7 @@
     --cor02: #E1C453;
 
     --fonte-padrao: Arial, Helvetica, sans-serif;
-    --fonte-destaque: 'Playfair Display', serif;
+    --fonte-destaque: 'Roboto Slab', serif;
 }
 
 html, body{
@@ -50,7 +50,8 @@ nav{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 15px;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    font-size: 1.15em;
 }
 
 nav > a{
@@ -106,7 +107,8 @@ main > p{
 
 section.img-parallax{
     margin-top: 40px;
-    height: 600px;
+    height: 450px;
+    width: 100%;
     margin: auto;
     background-image: url(../midias/prato3.jpeg);
     background-position: center center;
@@ -115,10 +117,24 @@ section.img-parallax{
 }
 
 div.infos{
-    margin-top: 30px;
+    margin-top: 50px;
     width: 280px;
     height: 200px;
-    background-color: yellow;
     display: inline-block;
     padding: 8px;
+}
+
+div.infos > h2{
+    font-family: var(--fonte-destaque);
+    color: var(--cor02);
+    font-size: 1.6em
+}
+
+div.infos > p{
+    padding: 5px;
+    color: white;
+    font-family: var(--fonte-padrao);
+    text-align: left;
+    line-height: 1.4em;
+    font-size: 1.2em;
 }
