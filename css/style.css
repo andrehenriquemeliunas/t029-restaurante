@@ -111,7 +111,6 @@ main > p{
     margin: auto;
     font-size: 1.25em;
     text-align: justify;
-    text-indent: 30px;
 }
 
 section.img-parallax{
@@ -136,9 +135,12 @@ section.img-parallax2{
     background-attachment: fixed;
 }
 
+div.bloco-infos{
+    margin-bottom: 50px;
+}
+
 div.infos{
     margin-top: 50px;
-    margin-bottom: 53px;
     width: 280px;
     height: 200px;
     display: inline-block;
@@ -158,4 +160,30 @@ div.infos > p{
     text-align: left;
     line-height: 1.4em;
     font-size: 1.2em;
+}
+
+p.desc-not{
+    text-align: center;
+    font-size: 0.8em;
+    letter-spacing: 2.2px;
+    padding: 0;
+}
+
+div.noticia1{
+    background-color: var(--cor02);
+    color: white;
+    width: 275px;
+    height: 350px;
+    margin: 10px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+div.noticia1 > h4{
+    color: black;
+    font-family: var(--fonte-destaque);
+    text-align: left;
+    padding: 15px;
+    font-size: 1.28em;
+    text-decoration: underline;
 }
